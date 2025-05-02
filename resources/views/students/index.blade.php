@@ -34,7 +34,7 @@
                 <td>{{ $student->yearly_fees }}</td>
                 <td>{{ $student->teacher->name }}</td>
                 <td>
-                    <a href="{{ route('students.edit', $student->id) }}" class="btn btn-sm btn-warning">Edit</a>
+                    <a href="{{ route('students.edit', $student->id) }}" class="btn btn-sm btn-warning px-3 mr-2 mb-1">Edit</a>
                     <form action="{{ route('students.destroy', $student->id) }}" method="POST" style="display:inline-block;">
                         @csrf @method('DELETE')
                         <button class="btn btn-sm btn-danger" onclick="return confirm('Delete this student?')">Delete</button>
