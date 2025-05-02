@@ -2,7 +2,7 @@
 
 # 🎓 University Student Management System (Laravel 9+)
 
-A simple CRUD application built using Laravel 9+ and MySQL to manage students and their class teachers. The application supports student listing, creation, editing, soft-deletion, and search functionality with caching and user authentication.
+A simple CRUD application built using Laravel 9+ and MySQL to manage students and their class teachers. The application supports student listing, creation, editing, soft-deletion, and search functionality with  user authentication.
 
 ## 🛠 Tech Stack
 
